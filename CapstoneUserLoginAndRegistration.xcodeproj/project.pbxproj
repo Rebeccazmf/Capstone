@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02AF9254E632F3C2C6296DF6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE7980D89192D51F1463A430 /* libPods.a */; };
+		6B0377191C6312880069816F /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0377181C6312880069816F /* HomePage.swift */; };
+		DD1189D51C736EA400EEB818 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1189D41C736EA400EEB818 /* MainPageViewController.swift */; };
+		DD5970171C4D5F9C0032C1A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5970161C4D5F9C0032C1A8 /* AppDelegate.swift */; };
+		DD5970191C4D5F9C0032C1A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5970181C4D5F9C0032C1A8 /* ViewController.swift */; };
+		DD59701C1C4D5F9C0032C1A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD59701A1C4D5F9C0032C1A8 /* Main.storyboard */; };
+		DD59701E1C4D5F9C0032C1A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD59701D1C4D5F9C0032C1A8 /* Assets.xcassets */; };
+		DD5970211C4D5F9C0032C1A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD59701F1C4D5F9C0032C1A8 /* LaunchScreen.storyboard */; };
+		DD59702C1C4D5F9C0032C1A8 /* CapstoneUserLoginAndRegistrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD59702B1C4D5F9C0032C1A8 /* CapstoneUserLoginAndRegistrationTests.swift */; };
+		DD5970371C4D5F9C0032C1A8 /* CapstoneUserLoginAndRegistrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5970361C4D5F9C0032C1A8 /* CapstoneUserLoginAndRegistrationUITests.swift */; };
+		DD5970451C4D69970032C1A8 /* RegisterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5970441C4D69970032C1A8 /* RegisterPageViewController.swift */; };
+		DD5970471C4D79060032C1A8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5970461C4D79060032C1A8 /* LoginViewController.swift */; };
+		DD8790951C737E87007548F3 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DD87908D1C737E87007548F3 /* MMDrawerBarButtonItem.m */; };
+		DD8790961C737E87007548F3 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD87908F1C737E87007548F3 /* MMDrawerController.m */; };
+		DD8790971C737E87007548F3 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8790921C737E87007548F3 /* MMDrawerVisualState.m */; };
+		DD8790981C737E87007548F3 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8790941C737E87007548F3 /* UIViewController+MMDrawerController.m */; };
+		DD87909B1C738133007548F3 /* LeftSideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD87909A1C738133007548F3 /* LeftSideViewController.swift */; };
+		DD87909D1C73857F007548F3 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD87909C1C73857F007548F3 /* AboutViewController.swift */; };
+		DD87909F1C762A6B007548F3 /* left_side.png in Resources */ = {isa = PBXBuildFile; fileRef = DD87909E1C762A6B007548F3 /* left_side.png */; };
+		DDEE861E1C971D3E00A9F260 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEE861D1C971D3E00A9F260 /* ForgotPasswordViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD5970281C4D5F9C0032C1A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD59700B1C4D5F9C0032C1A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD5970121C4D5F9C0032C1A8;
+			remoteInfo = CapstoneUserLoginAndRegistration;
+		};
+		DD5970331C4D5F9C0032C1A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD59700B1C4D5F9C0032C1A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD5970121C4D5F9C0032C1A8;
+			remoteInfo = CapstoneUserLoginAndRegistration;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2113C7029385784029B485EA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		52442EB4D79DB2D645164E58 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		6B0377181C6312880069816F /* HomePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		DD1189D41C736EA400EEB818 /* MainPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		DD5970131C4D5F9C0032C1A8 /* CapstoneUserLoginAndRegistration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CapstoneUserLoginAndRegistration.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD5970161C4D5F9C0032C1A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD5970181C4D5F9C0032C1A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD59701B1C4D5F9C0032C1A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD59701D1C4D5F9C0032C1A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD5970201C4D5F9C0032C1A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD5970221C4D5F9C0032C1A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD5970271C4D5F9C0032C1A8 /* CapstoneUserLoginAndRegistrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapstoneUserLoginAndRegistrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD59702B1C4D5F9C0032C1A8 /* CapstoneUserLoginAndRegistrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapstoneUserLoginAndRegistrationTests.swift; sourceTree = "<group>"; };
+		DD59702D1C4D5F9C0032C1A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD5970321C4D5F9C0032C1A8 /* CapstoneUserLoginAndRegistrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapstoneUserLoginAndRegistrationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD5970361C4D5F9C0032C1A8 /* CapstoneUserLoginAndRegistrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapstoneUserLoginAndRegistrationUITests.swift; sourceTree = "<group>"; };
+		DD5970381C4D5F9C0032C1A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD5970441C4D69970032C1A8 /* RegisterPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPageViewController.swift; sourceTree = "<group>"; };
+		DD5970461C4D79060032C1A8 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DD87908B1C737E86007548F3 /* CapstoneUserLoginAndRegistration-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CapstoneUserLoginAndRegistration-Bridging-Header.h"; sourceTree = "<group>"; };
+		DD87908C1C737E87007548F3 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		DD87908D1C737E87007548F3 /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		DD87908E1C737E87007548F3 /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		DD87908F1C737E87007548F3 /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		DD8790901C737E87007548F3 /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		DD8790911C737E87007548F3 /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		DD8790921C737E87007548F3 /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		DD8790931C737E87007548F3 /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		DD8790941C737E87007548F3 /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		DD87909A1C738133007548F3 /* LeftSideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftSideViewController.swift; sourceTree = "<group>"; };
+		DD87909C1C73857F007548F3 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		DD87909E1C762A6B007548F3 /* left_side.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left_side.png; sourceTree = "<group>"; };
+		DDEE861D1C971D3E00A9F260 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		EE7980D89192D51F1463A430 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD5970101C4D5F9C0032C1A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02AF9254E632F3C2C6296DF6 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD5970241C4D5F9C0032C1A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD59702F1C4D5F9C0032C1A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3ED01E41AB9765BDFE15836C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE7980D89192D51F1463A430 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD59700A1C4D5F9C0032C1A8 = {
+			isa = PBXGroup;
+			children = (
+				DD5970151C4D5F9C0032C1A8 /* CapstoneUserLoginAndRegistration */,
+				DD59702A1C4D5F9C0032C1A8 /* CapstoneUserLoginAndRegistrationTests */,
+				DD5970351C4D5F9C0032C1A8 /* CapstoneUserLoginAndRegistrationUITests */,
+				DD5970141C4D5F9C0032C1A8 /* Products */,
+				F450360B7929DBBFFDCC0005 /* Pods */,
+				3ED01E41AB9765BDFE15836C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DD5970141C4D5F9C0032C1A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD5970131C4D5F9C0032C1A8 /* CapstoneUserLoginAndRegistration.app */,
+				DD5970271C4D5F9C0032C1A8 /* CapstoneUserLoginAndRegistrationTests.xctest */,
+				DD5970321C4D5F9C0032C1A8 /* CapstoneUserLoginAndRegistrationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD5970151C4D5F9C0032C1A8 /* CapstoneUserLoginAndRegistration */ = {
+			isa = PBXGroup;
+			children = (
+				DD8790991C737EA7007548F3 /* MMDrawer */,
+				DD5970161C4D5F9C0032C1A8 /* AppDelegate.swift */,
+				DD87909E1C762A6B007548F3 /* left_side.png */,
+				DD5970181C4D5F9C0032C1A8 /* ViewController.swift */,
+				DD59701A1C4D5F9C0032C1A8 /* Main.storyboard */,
+				DD59701D1C4D5F9C0032C1A8 /* Assets.xcassets */,
+				DD59701F1C4D5F9C0032C1A8 /* LaunchScreen.storyboard */,
+				DD5970221C4D5F9C0032C1A8 /* Info.plist */,
+				DD5970441C4D69970032C1A8 /* RegisterPageViewController.swift */,
+				DD5970461C4D79060032C1A8 /* LoginViewController.swift */,
+				6B0377181C6312880069816F /* HomePage.swift */,
+				DD1189D41C736EA400EEB818 /* MainPageViewController.swift */,
+				DD87908B1C737E86007548F3 /* CapstoneUserLoginAndRegistration-Bridging-Header.h */,
+				DD87909A1C738133007548F3 /* LeftSideViewController.swift */,
+				DD87909C1C73857F007548F3 /* AboutViewController.swift */,
+				DDEE861D1C971D3E00A9F260 /* ForgotPasswordViewController.swift */,
+			);
+			path = CapstoneUserLoginAndRegistration;
+			sourceTree = "<group>";
+		};
+		DD59702A1C4D5F9C0032C1A8 /* CapstoneUserLoginAndRegistrationTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD59702B1C4D5F9C0032C1A8 /* CapstoneUserLoginAndRegistrationTests.swift */,
+				DD59702D1C4D5F9C0032C1A8 /* Info.plist */,
+			);
+			path = CapstoneUserLoginAndRegistrationTests;
+			sourceTree = "<group>";
+		};
+		DD5970351C4D5F9C0032C1A8 /* CapstoneUserLoginAndRegistrationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD5970361C4D5F9C0032C1A8 /* CapstoneUserLoginAndRegistrationUITests.swift */,
+				DD5970381C4D5F9C0032C1A8 /* Info.plist */,
+			);
+			path = CapstoneUserLoginAndRegistrationUITests;
+			sourceTree = "<group>";
+		};
+		DD8790991C737EA7007548F3 /* MMDrawer */ = {
+			isa = PBXGroup;
+			children = (
+				DD87908C1C737E87007548F3 /* MMDrawerBarButtonItem.h */,
+				DD87908D1C737E87007548F3 /* MMDrawerBarButtonItem.m */,
+				DD87908E1C737E87007548F3 /* MMDrawerController.h */,
+				DD87908F1C737E87007548F3 /* MMDrawerController.m */,
+				DD8790901C737E87007548F3 /* MMDrawerController+Subclass.h */,
+				DD8790911C737E87007548F3 /* MMDrawerVisualState.h */,
+				DD8790921C737E87007548F3 /* MMDrawerVisualState.m */,
+				DD8790931C737E87007548F3 /* UIViewController+MMDrawerController.h */,
+				DD8790941C737E87007548F3 /* UIViewController+MMDrawerController.m */,
+			);
+			name = MMDrawer;
+			sourceTree = "<group>";
+		};
+		F450360B7929DBBFFDCC0005 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2113C7029385784029B485EA /* Pods.debug.xcconfig */,
+				52442EB4D79DB2D645164E58 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD5970121C4D5F9C0032C1A8 /* CapstoneUserLoginAndRegistration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD59703B1C4D5F9C0032C1A8 /* Build configuration list for PBXNativeTarget "CapstoneUserLoginAndRegistration" */;
+			buildPhases = (
+				3D076BBF595B65FE62DA6C3D /* Check Pods Manifest.lock */,
+				DD59700F1C4D5F9C0032C1A8 /* Sources */,
+				DD5970101C4D5F9C0032C1A8 /* Frameworks */,
+				DD5970111C4D5F9C0032C1A8 /* Resources */,
+				E2E482295278C32A2D5D6BE9 /* Embed Pods Frameworks */,
+				D6C78BAD030E561CE655D3ED /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CapstoneUserLoginAndRegistration;
+			productName = CapstoneUserLoginAndRegistration;
+			productReference = DD5970131C4D5F9C0032C1A8 /* CapstoneUserLoginAndRegistration.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD5970261C4D5F9C0032C1A8 /* CapstoneUserLoginAndRegistrationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD59703E1C4D5F9C0032C1A8 /* Build configuration list for PBXNativeTarget "CapstoneUserLoginAndRegistrationTests" */;
+			buildPhases = (
+				DD5970231C4D5F9C0032C1A8 /* Sources */,
+				DD5970241C4D5F9C0032C1A8 /* Frameworks */,
+				DD5970251C4D5F9C0032C1A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD5970291C4D5F9C0032C1A8 /* PBXTargetDependency */,
+			);
+			name = CapstoneUserLoginAndRegistrationTests;
+			productName = CapstoneUserLoginAndRegistrationTests;
+			productReference = DD5970271C4D5F9C0032C1A8 /* CapstoneUserLoginAndRegistrationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD5970311C4D5F9C0032C1A8 /* CapstoneUserLoginAndRegistrationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD5970411C4D5F9C0032C1A8 /* Build configuration list for PBXNativeTarget "CapstoneUserLoginAndRegistrationUITests" */;
+			buildPhases = (
+				DD59702E1C4D5F9C0032C1A8 /* Sources */,
+				DD59702F1C4D5F9C0032C1A8 /* Frameworks */,
+				DD5970301C4D5F9C0032C1A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD5970341C4D5F9C0032C1A8 /* PBXTargetDependency */,
+			);
+			name = CapstoneUserLoginAndRegistrationUITests;
+			productName = CapstoneUserLoginAndRegistrationUITests;
+			productReference = DD5970321C4D5F9C0032C1A8 /* CapstoneUserLoginAndRegistrationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD59700B1C4D5F9C0032C1A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Northeastern University";
+				TargetAttributes = {
+					DD5970121C4D5F9C0032C1A8 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					DD5970261C4D5F9C0032C1A8 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DD5970121C4D5F9C0032C1A8;
+					};
+					DD5970311C4D5F9C0032C1A8 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DD5970121C4D5F9C0032C1A8;
+					};
+				};
+			};
+			buildConfigurationList = DD59700E1C4D5F9C0032C1A8 /* Build configuration list for PBXProject "CapstoneUserLoginAndRegistration" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD59700A1C4D5F9C0032C1A8;
+			productRefGroup = DD5970141C4D5F9C0032C1A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD5970121C4D5F9C0032C1A8 /* CapstoneUserLoginAndRegistration */,
+				DD5970261C4D5F9C0032C1A8 /* CapstoneUserLoginAndRegistrationTests */,
+				DD5970311C4D5F9C0032C1A8 /* CapstoneUserLoginAndRegistrationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD5970111C4D5F9C0032C1A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5970211C4D5F9C0032C1A8 /* LaunchScreen.storyboard in Resources */,
+				DD59701E1C4D5F9C0032C1A8 /* Assets.xcassets in Resources */,
+				DD59701C1C4D5F9C0032C1A8 /* Main.storyboard in Resources */,
+				DD87909F1C762A6B007548F3 /* left_side.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD5970251C4D5F9C0032C1A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD5970301C4D5F9C0032C1A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D076BBF595B65FE62DA6C3D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D6C78BAD030E561CE655D3ED /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2E482295278C32A2D5D6BE9 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD59700F1C4D5F9C0032C1A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD87909B1C738133007548F3 /* LeftSideViewController.swift in Sources */,
+				6B0377191C6312880069816F /* HomePage.swift in Sources */,
+				DD5970471C4D79060032C1A8 /* LoginViewController.swift in Sources */,
+				DD8790961C737E87007548F3 /* MMDrawerController.m in Sources */,
+				DD8790981C737E87007548F3 /* UIViewController+MMDrawerController.m in Sources */,
+				DD8790971C737E87007548F3 /* MMDrawerVisualState.m in Sources */,
+				DD87909D1C73857F007548F3 /* AboutViewController.swift in Sources */,
+				DD5970191C4D5F9C0032C1A8 /* ViewController.swift in Sources */,
+				DD5970171C4D5F9C0032C1A8 /* AppDelegate.swift in Sources */,
+				DD1189D51C736EA400EEB818 /* MainPageViewController.swift in Sources */,
+				DDEE861E1C971D3E00A9F260 /* ForgotPasswordViewController.swift in Sources */,
+				DD5970451C4D69970032C1A8 /* RegisterPageViewController.swift in Sources */,
+				DD8790951C737E87007548F3 /* MMDrawerBarButtonItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD5970231C4D5F9C0032C1A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD59702C1C4D5F9C0032C1A8 /* CapstoneUserLoginAndRegistrationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD59702E1C4D5F9C0032C1A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5970371C4D5F9C0032C1A8 /* CapstoneUserLoginAndRegistrationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD5970291C4D5F9C0032C1A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD5970121C4D5F9C0032C1A8 /* CapstoneUserLoginAndRegistration */;
+			targetProxy = DD5970281C4D5F9C0032C1A8 /* PBXContainerItemProxy */;
+		};
+		DD5970341C4D5F9C0032C1A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD5970121C4D5F9C0032C1A8 /* CapstoneUserLoginAndRegistration */;
+			targetProxy = DD5970331C4D5F9C0032C1A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD59701A1C4D5F9C0032C1A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD59701B1C4D5F9C0032C1A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD59701F1C4D5F9C0032C1A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD5970201C4D5F9C0032C1A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD5970391C4D5F9C0032C1A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD59703A1C4D5F9C0032C1A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD59703C1C4D5F9C0032C1A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2113C7029385784029B485EA /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = CapstoneUserLoginAndRegistration/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YF.CapstoneUserLoginAndRegistration;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CapstoneUserLoginAndRegistration/CapstoneUserLoginAndRegistration-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD59703D1C4D5F9C0032C1A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52442EB4D79DB2D645164E58 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = CapstoneUserLoginAndRegistration/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YF.CapstoneUserLoginAndRegistration;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CapstoneUserLoginAndRegistration/CapstoneUserLoginAndRegistration-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		DD59703F1C4D5F9C0032C1A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CapstoneUserLoginAndRegistrationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YF.CapstoneUserLoginAndRegistrationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CapstoneUserLoginAndRegistration.app/CapstoneUserLoginAndRegistration";
+			};
+			name = Debug;
+		};
+		DD5970401C4D5F9C0032C1A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CapstoneUserLoginAndRegistrationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YF.CapstoneUserLoginAndRegistrationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CapstoneUserLoginAndRegistration.app/CapstoneUserLoginAndRegistration";
+			};
+			name = Release;
+		};
+		DD5970421C4D5F9C0032C1A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CapstoneUserLoginAndRegistrationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YF.CapstoneUserLoginAndRegistrationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CapstoneUserLoginAndRegistration;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DD5970431C4D5F9C0032C1A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CapstoneUserLoginAndRegistrationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YF.CapstoneUserLoginAndRegistrationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CapstoneUserLoginAndRegistration;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD59700E1C4D5F9C0032C1A8 /* Build configuration list for PBXProject "CapstoneUserLoginAndRegistration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD5970391C4D5F9C0032C1A8 /* Debug */,
+				DD59703A1C4D5F9C0032C1A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD59703B1C4D5F9C0032C1A8 /* Build configuration list for PBXNativeTarget "CapstoneUserLoginAndRegistration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD59703C1C4D5F9C0032C1A8 /* Debug */,
+				DD59703D1C4D5F9C0032C1A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD59703E1C4D5F9C0032C1A8 /* Build configuration list for PBXNativeTarget "CapstoneUserLoginAndRegistrationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD59703F1C4D5F9C0032C1A8 /* Debug */,
+				DD5970401C4D5F9C0032C1A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD5970411C4D5F9C0032C1A8 /* Build configuration list for PBXNativeTarget "CapstoneUserLoginAndRegistrationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD5970421C4D5F9C0032C1A8 /* Debug */,
+				DD5970431C4D5F9C0032C1A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD59700B1C4D5F9C0032C1A8 /* Project object */;
+}
